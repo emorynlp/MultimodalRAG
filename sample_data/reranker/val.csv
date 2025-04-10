@@ -1,0 +1,38 @@
+file_name,context,question,retrieved_contexts
+HDC1_Kinematic_Energy_1.md,"# Attachment 4. Kinematic Energy
+1. HDC1 Energy Analysis: Comparison of Front & A/PLR absorption rates based on the timing of TIRE contact with S/SILL  (using ACU X & Y data), and setting the Final Time considering  the vehicle's acceleration.
+
+# Kinematic Energy Data Table
+| Category         | Initial Kinetic | Absorbed Energy |                             | Final Kinetic |                 | Remarks            | 
+|-----------------|------------ -----|-----------------------|----------------|-----------------|----------|-------------------| 
+|                             |                              | Front                           | A/PLR              | Final X             | Final Y  |                                 |
+| HDC 1              | 428.8                 | 19.4%                         | 63.1%              | 9.0%                 | 8.6%     | 45ms, 150ms  | 
+| GDC 2              | 532.4                 | 21.2%                         | 72.3%              | 2.5%.               | 4.0%     | 45ms, 150ms  | 
+| QYZ base        | 261.3                 | 37.8%                         | 46.8%              | 6.4%                 | 7.1%     |                               |   
+| LFA                    | 261.3                 | 21.7%                         | 52.0%              | 1.4%                 | 24.5%  |                                | 
+| GPC                  | 321.6                 | 34.5%                         | 39.7%              | 19.1%               | 6.6%     |                               | 
+
+This table illustrates the distribution of kinematic energy across various vehicle models. 
+Initial Kinetic refers to the initial kinetic energy, absorbed Energy represents the proportion of energy absorbed by the Front and A/PLR, and Final Kinetic indicates the final energy distribution on the X-axis and Y-axis. 
+For the HDC 1 and GDC 2 models, …
+",What type of test observes the occurrence of multiple holes forming in the vehicle's interior structures?,"{1: 'rank_1_retrieved_doc', 2: ""# Attachment 4. Kinematic Energy\n1. HDC1 Energy Analysis: Comparison of Front & A/PLR absorption rates based on the timing of TIRE contact with S/SILL  (using ACU X & Y data), and setting the Final Time considering  the vehicle's acceleration.\n\n# Kinematic Energy Data Table\n| Category         | Initial Kinetic | Absorbed Energy |                             | Final Kinetic |                 | Remarks            | \n|-----------------|------------ -----|-----------------------|----------------|-----------------|----------|-------------------| \n|                             |                              | Front                           | A/PLR              | Final X             | Final Y  |                                 |\n| HDC 1              | 428.8                 | 19.4%                         | 63.1%              | 9.0%                 | 8.6%     | 45ms, 150ms  | \n| GDC 2              | 532.4                 | 21.2%                         | 72.3%              | 2.5%.               | 4.0%     | 45ms, 150ms  | \n| QYZ base        | 261.3                 | 37.8%                         | 46.8%              | 6.4%                 | 7.1%     |                               |   \n| LFA                    | 261.3                 | 21.7%                         | 52.0%              | 1.4%                 | 24.5%  |                                | \n| GPC                  | 321.6                 | 34.5%                         | 39.7%              | 19.1%               | 6.6%     |                               | \n\nThis table illustrates the distribution of kinematic energy across various vehicle models. \nInitial Kinetic refers to the initial kinetic energy, absorbed Energy represents the proportion of energy absorbed by the Front and A/PLR, and Final Kinetic indicates the final energy distribution on the X-axis and Y-axis. \nFor the HDC 1 and GDC 2 models, …\n"", 3: 'rank_3_retrieved_doc', 4: 'rank_4_retrieved_doc', 5: 'rank_5_retrieved_doc', 6: 'rank_6_retrieved_doc', 7: 'rank_7_retrieved_doc', 8: 'rank_8_retrieved_doc', 9: 'rank_9_retrieved_doc', 10: 'rank_10_retrieved_doc'}"
+HDC_T_CAR_64kph_Small_Overlap_5.md,"—
+Region: USA
+Test Name: 64kph Small Overlap 25% (RH)
+Stage: T-Car
+Purpose: Evaluation of HDC Small Overlap Improvements
+—
+Test Conditions
+The table below compares the test conditions for the two
+trials of HDC. In the second trial, the speed slightly increased, the weight decreased, and the impact location
+shifted.
+...
+Evaluation Results
+The evaluation results indicate a decline in ratings between the first and second tests.
+Target: Overall rating - Good (G), Body rating - Good (G)
+1st Test: Overall rating - G+0, Body rating - Acceptable
+(A)
+2nd Test: Overall rating - A+1, Body rating - Marginal
+(M)
+All other ratings, including restraint/dummy behavior and
+passenger injuries, remained at ""Good"" (G) for both tests. ...",What factors contributed to the decline in ratings between the first and second HDC Small Overlap tests?,"{1: '—\nRegion: USA\nTest Name: 64kph Small Overlap 25% (RH)\nStage: T-Car\nPurpose: Evaluation of HDC Small Overlap Improvements\n—\nTest Conditions\nThe table below compares the test conditions for the two\ntrials of HDC. In the second trial, the speed slightly increased, the weight decreased, and the impact location\nshifted.\n...\nEvaluation Results\nThe evaluation results indicate a decline in ratings between the first and second tests.\nTarget: Overall rating - Good (G), Body rating - Good (G)\n1st Test: Overall rating - G+0, Body rating - Acceptable\n(A)\n2nd Test: Overall rating - A+1, Body rating - Marginal\n(M)\nAll other ratings, including restraint/dummy behavior and\npassenger injuries, remained at ""Good"" (G) for both tests. ...', 2: 'rank_2_retrieved_doc', 3: 'rank_3_retrieved_doc', 4: 'rank_4_retrieved_doc', 5: 'rank_5_retrieved_doc', 6: 'rank_6_retrieved_doc', 7: 'rank_7_retrieved_doc', 8: 'rank_8_retrieved_doc', 9: 'rank_9_retrieved_doc', 10: 'rank_10_retrieved_doc'}"
