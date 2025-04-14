@@ -7,7 +7,7 @@
 - TBU
 
 ### RAG Components
-- How to train the <b>Retriever</b>, <b>Re-ranker</b>, and <b>Answer Generation Model</b>, as well as how to use the <b>Reference Matching Algorithm</b> with the Re-ranker, are as follows.
+How to train the <b>Retriever</b>, <b>Re-ranker</b>, and <b>Answer Generation Model</b>, as well as how to use the <b>Reference Matching Algorithm</b> with the Re-ranker, are as follows.
 
 #### ✔ Retrieval
 - We fine-tuned [BGE-M3](https://huggingface.co/BAAI/bge-m3) with the publicly available [code](https://github.com/FlagOpen/FlagEmbedding).
