@@ -13,10 +13,10 @@ python slide_extraction.py --input_directory ./slide \
 ### ⚙️ RAG Components
 How to train the <b>Retriever</b>, <b>Re-ranker</b>, and <b>Answer Generation Model</b>, as well as how to use the <b>Reference Matching Algorithm</b> with the Re-ranker, are as follows.
 
-#### ✔ Retrieval
+#### ✔ Retriever
 - We fine-tuned [BGE-M3](https://huggingface.co/BAAI/bge-m3) with the publicly available [code](https://github.com/FlagOpen/FlagEmbedding).
 
-#### ✔ Re-ranking
+#### ✔ Re-ranker
 ```
 python reranker.py --train_data_path ./sample_data/reranker/train.csv \
                    --val_data_path ./sample_data/reranker/val.csv \
@@ -31,7 +31,7 @@ python reranker.py --train_data_path ./sample_data/reranker/train.csv \
                    --save_dir ./reranker_trained
 ```
 
-#### ✔ Answer Generation
+#### ✔ Answer Generation Model
 ```
 python llm.py --train_data_path ./sample_data/answer_generation/train.csv
               --val_data_path ./sample_data/answer_generation/val.csv
@@ -43,7 +43,7 @@ python llm.py --train_data_path ./sample_data/answer_generation/train.csv
               --log_dir ./log
 ```
 
-#### ✔ Reference Matching 
+#### ✔ Reference Matching Algorithm
 ```
 python reference_matching.py --from_pretrained BAAI/bge-m3 \
                              --reranker_path ./reranker_trained/best.pt \
