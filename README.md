@@ -1,10 +1,14 @@
-#### (🚧 Work in Progress)
 ## Trustworthy Answers, Messier Data: Bridging the Gap in Low-Resource Retrieval-Augmented Generation for Domain Expert Systems [[Paper]](https://arxiv.org/pdf/2502.19596)
 
 <img width="1000" alt="Screenshot 2025-04-14 at 11 44 13 AM" src="https://github.com/user-attachments/assets/8ace61fd-0946-4cca-b63d-262b2c7b75e8" />
 
 ### Data Generation
-- TBU
+The original data source in the form of PPT slides is converted into a text corpus, and then question-answer pairs are extracted from the converted text.
+```
+python slide_extraction.py --input_directory ./slide \
+                           --output_directory ./md
+```
+- Please refer to the appendix of the [paper]((https://arxiv.org/pdf/2502.19596)) for the prompts used to extract question-answer pairs.
 
 ### RAG Components
 How to train the <b>Retriever</b>, <b>Re-ranker</b>, and <b>Answer Generation Model</b>, as well as how to use the <b>Reference Matching Algorithm</b> with the Re-ranker, are as follows.
