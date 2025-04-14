@@ -8,7 +8,7 @@ How to convert the original PPT slides into a text corpus and extract question-a
 python slide_extraction.py --input_directory ./slide \
                            --output_directory ./md
 ```
-- Please refer to the appendix of the [paper]((https://arxiv.org/pdf/2502.19596)) for the prompts used to extract question-answer pairs.
+- Please refer to the appendix of the [paper](https://arxiv.org/pdf/2502.19596) for the prompts used to extract question-answer pairs.
 
 ### ⚙️ RAG Components
 How to train the <b>Retriever</b>, <b>Re-ranker</b>, and <b>Answer Generation Model</b>, as well as how to use the <b>Reference Matching Algorithm</b> with the Re-ranker, are as follows.
