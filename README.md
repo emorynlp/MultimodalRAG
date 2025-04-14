@@ -33,6 +33,14 @@ python reranker.py --train_data_path ./sample_data/reranker/train.csv \
 
 #### ✔ Answer Generation
 ```
+python llm.py --train_data_path ./sample_data/answer_generation/train.csv
+              --val_data_path ./sample_data/answer_generation/val.csv
+              --from_pretrained Qwen/Qwen2.5-72B-Instruct
+              --epochs 3
+              --lr 1e-5
+              --logging_steps 10
+              --save_dir ./qwen_trained
+              --log_dir ./log
 ```
 
 #### ✔ Reference Matching 
