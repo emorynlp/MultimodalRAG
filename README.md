@@ -49,12 +49,10 @@ python reference_matching.py --from_pretrained BAAI/bge-m3 \
                              --reranker_path ./reranker_trained/best.pt \
                              --save_path ./result_segments.json \
                              --question "Has there been an example where improving the vehicle structure prevented the fracture of components?" \
+                             --generated_answer "Yes, there have been examples in several impact tests where improvements to the vehicle structure have prevented the fracture of components. For instance, in the 60kph Side Impact test, structural upgrades to the side door beams helped prevent component fractures. Additionally, the reinforced cross-members in the 80kph Front Impact test played a crucial role in reducing damage to the front frame, preventing fractures that usually occur at high speeds. These examples illustrate the effectiveness of vehicle design improvements in mitigating damage to critical components during collisions." \
                              --retrieved_chunks ["In the 60kph Side Impact test, structural improvements were made to the vehicle's side door beams to enhance safety during side collisions. These upgrades were specifically targeted to prevent fractures and deformation of key structural components, such as the door frame.",
                                                  "During the 80kph Front Impact test, the vehicle was redesigned to include reinforced cross-members in the front bumper area. This modification proved to be effective in reducing the severity of damage to the front frame, preventing fractures that typically occur at high speeds.",
                                                  "The addition of a more rigid roof structure was another major change. This improvement was especially beneficial in preventing the roof from collapsing during high-speed rollover accidents, where the roof integrity is often compromised.",
                                                  "For the latest prototype model, the addition of extra reinforcements in the rear underbody of the vehicle was designed to prevent the fracturing of key components during rear-end collisions. This structural improvement was tested in a series of crash simulations, where the results showed a marked reduction in damage compared to previous models.",
                                                  "A major change in the 120kph frontal crash tests involved the introduction of an advanced crumple zone system in the vehicle's front-end design. While the crumple zones absorbed much of the impact force, the newly reinforced side pillars helped prevent fractures of internal components like the engine block and steering mechanism."]
 ```
-
-
-    
