@@ -56,3 +56,30 @@ python reference_matching.py --from_pretrained BAAI/bge-m3 \
                                                  "For the latest prototype model, the addition of extra reinforcements in the rear underbody of the vehicle was designed to prevent the fracturing of key components during rear-end collisions. This structural improvement was tested in a series of crash simulations, where the results showed a marked reduction in damage compared to previous models.",
                                                  "A major change in the 120kph frontal crash tests involved the introduction of an advanced crumple zone system in the vehicle's front-end design. While the crumple zones absorbed much of the impact force, the newly reinforced side pillars helped prevent fractures of internal components like the engine block and steering mechanism."]
 ```
+
+## 💬 Prompts
+
+<details>
+<summary>Prompt used to convert a presentation slide into markdown text</summary>
+<img width="1000" alt="Screenshot 2025-05-21 at 5 07 37 PM" src="https://github.com/user-attachments/assets/007f3c2f-ec4b-4e1c-a686-5a4f570d0cab" />
+</details>
+
+<details>
+<summary>Prompt used to generate Q&A pairs from a given chunk</summary>
+<img width="1000" alt="Screenshot 2025-05-21 at 5 09 20 PM" src="https://github.com/user-attachments/assets/360f4c65-f094-47f1-9dae-96e2e8894f86" />
+</details>
+
+<details>
+<summary>Prompt used to compare answers from LLM-only models</summary>
+<img width="1000" alt="Screenshot 2025-05-21 at 5 09 52 PM" src="https://github.com/user-attachments/assets/da3f1805-58c9-4bd2-800f-13bafeeadaaa" />
+</details>
+
+<details>
+<summary>Prompt used to compare answers from LLM-only and RAG models</summary>
+<img width="1000" alt="Screenshot 2025-05-21 at 5 10 23 PM" src="https://github.com/user-attachments/assets/d44a3d38-81c6-4f16-b46d-ccfe8495d193" />
+</details>
+
+<details>
+<summary>Prompt used for LLM reference matching</summary>
+<img width="1000" alt="Screenshot 2025-05-21 at 5 10 52 PM" src="https://github.com/user-attachments/assets/90c978bc-fa08-441b-ae34-e18a31445cfb" />
+</details>
