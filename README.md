@@ -1,4 +1,4 @@
-# 🚙 Reference-Aligned RAG-QA
+# 🚙 Reference-Aligned RAG-QA System
 
 ### ⚙️ Data Generation
 How to convert the original PPT slides into a text corpus and extract question-answer pairs is as follows.
