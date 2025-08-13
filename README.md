@@ -1,4 +1,4 @@
-# 🚙 Reference-Aligned RAG-QA System
+# 🚙 Reference-Aligned Retrieval-Augmented Question Answering over Heterogeneous Proprietary Documents [[arXiv]](https://arxiv.org/pdf/2502.19596)
 
 ### ⚙️ Data Generation
 How to convert the original PPT slides into a text corpus and extract question-answer pairs is as follows.
