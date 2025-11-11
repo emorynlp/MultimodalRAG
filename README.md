@@ -1,4 +1,4 @@
-## 🚙 Reference-Aligned Retrieval-Augmented Question Answering over Heterogeneous Proprietary Documents [[arXiv]](https://arxiv.org/pdf/2502.19596)
+## 🚙 Reference-Aligned Retrieval-Augmented Question Answering over Heterogeneous Proprietary Documents [[CIKM '25]](https://dl.acm.org/doi/pdf/10.1145/3746252.3761566)
 
 ### ⚙️ Data Generation
 How to convert the original PPT slides into a text corpus and extract question-answer pairs is as follows.
